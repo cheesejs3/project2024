@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="./resources/img/favicon.png">
+	<meta name="Description" content="Nayun Kim is motion designer based in South Korea. I focus on to connect theme to personal experience.">
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta property="oimage" content="./resources/img/metaimg.jpg">
+
+
+	<title>Nayun Kim</title>
+
+	
+	<script>
+	  (function(d) {
+	    var config = {
+	      kitId: 'vnf1aov',
+	      scriptTimeout: 3000,
+	      async: true
+	    },
+	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+	<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+	<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+	<link rel="stylesheet" href="./resources/css/style.css">
+	<link rel="stylesheet" href="./resources/css/font.css">
+	<link rel="stylesheet" href="./resources/css/img.css">
+	<link rel="stylesheet" href="./resources/css/side.css">
+
+</head>
+<body id="body">
+	<nav id="navHead" data-lenis-prevent-wheel>
+		<div class="wrapper flex">
+				<div class="home_btn">
+					<a href="" style="line-height:0;">
+						<dotlottie-player src="https://lottie.host/d739193d-375f-4fb1-8338-3a472cbb1d83/3ObIyts5IN.json" background="transparent" speed="1"  direction="1" playMode="normal" loop  hover autoplay></dotlottie-player>
+					</a>
+				</div>
+				<div class="menu_btn flex">
+					<div id="loading">
+						<a>About</a>
+					</div>
+					<div>
+						<a href="./project.html">Project</a>
+					</div>
+					<div>
+						<a href="./side.html">Side</a>
+					</div>
+				</div>
+		</div>
+	</nav>
+	<div id="com" class="com">
+			<canvas width="400" height="200" id="coming" class="coming"></canvas>
+	</div>
+
+	<div id="filterContainer">
+		<button class="btn active" onclick="filterSelection('all'); masonryLayout();"><p>All</p></button>
+		<button class="btn" onclick="filterSelection('print'); masonryLayout();"><p>Print</p></button>
+		<button class="btn" onclick="filterSelection('motion'); masonryLayout();"><p>Motion</p></button>
+		<button class="btn"onclick="filterSelection('illustration'); masonryLayout();"><p>Illustration</p></button>
+		<button class="btn" onclick="filterSelection('Interaction'); masonryLayout();"><p>Interaction</p></button>
+		<button class="btn" onclick="filterSelection('graphics');masonryLayout();"><p>Graphics</p></button>
+	</div>
+
+
+	<div class="wrap">
+    <div class="masonry-item print illustration">
+        <a href="./108.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/108.webp">
+	        	<p class="text-small gray">탁구대회 수여증</p>
+	        	<p class="bold text-mid title">상림탁구클럽</p>
+        	</div>
+    	</a>
+    </div>
+     <div class="masonry-item motion">
+        <a href="./105.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/105.webp">
+	        	<p class="text-small gray">VFX Motion</p>
+	        	<p class="bold text-mid title">기숙선</p>
+        	</div>
+    	</a>
+    </div>
+    <div class="masonry-item print Interaction">
+        <a href="./104.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/104.webp">
+	        	<p class="text-small gray">서류 리디자인</p>
+	        	<p class="bold text-mid title">Document Redesign for Hochschule Mainz</p>
+        	</div>
+    	</a>
+    </div>
+    <div class="masonry-item illustration motion graphics">
+        <a href="./103.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/103.webp">
+	        	<p class="text-small gray">감정을 요리하는 바이오 페스티벌</p>
+	        	<p class="bold text-mid title">FEEL the EAT</p>
+        	</div>
+    	</a>
+    </div>
+    <div class="masonry-item illustration">
+        <a href="./102.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/102.webp">
+	        	<p class="text-small gray">'빅 매직'이 일어나는 순간</p>
+	        	<p class="bold text-mid title">Screen Print 01</p>
+        	</div>
+    	</a>
+    </div>
+    <div class="masonry-item illustration">
+        <a href="./101.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/101.webp">
+	        	<p class="text-small gray">완전히 새로워진 일상</p>
+	        	<p class="bold text-mid title">New Cycle</p>
+        	</div>
+    	</a>
+    </div>
+    <div class="masonry-item motion">
+        <a href="./200.html">
+        	<div class="pseudo-img">
+	        	<img src="./resources/img/200.webp">
+	        	<p class="text-small gray">아이콘 애니메이션</p>
+	        	<p class="bold text-mid title">2D 아이콘 모핑</p>
+        	</div>
+    	</a>
+    </div>
+   
+</div>
+<footer>
+		<div class="footer-Wrap section flex">
+			<div style="flex:3;display: inline-block;
+  align-self: flex-start;">
+				<p class="text-big name">KIM NAYUN</p>
+				<p class="text-mid line1-5">Seoul, South Korea</p>
+				<p class="text-mid personalInfo">pibicheese@gmail.com</p>
+			</div>
+			<div class="footer_Interactive" id="footer_Interactive">
+					<canvas width="700" height="500" id="footer_Img" class="footer_Img"></canvas>
+			</div>
+			<div class="sns">
+					<p><a target="_blank" href="https://www.instagram.com/junoryun/" class="text-mid" style="width:`100%">Instagram</a></p>
+					<p><a target="_blank" href="https://www.behance.net/nayunkim" class="text-mid" style="width:`100%">Behance</a></p>
+			</div>
+		
+			
+		</div>
+		<p class="copywrite">©2024 KIM NAYUN, All rights reserved.</p>
+		
+	</footer>
+<script src="./resources/js/filter.js"></script>
+<script type="text/javascript">
+	function masonryLayout() {
+    const masonryContainerStyle = getComputedStyle(
+        document.querySelector(".wrap")
+    );
+    const columnGap = parseInt(
+        masonryContainerStyle.getPropertyValue("column-gap")
+    );
+    const autoRows = parseInt(
+        masonryContainerStyle.getPropertyValue("grid-auto-rows")
+    );
+
+    document.querySelectorAll(".masonry-item").forEach((elt) => {
+        elt.style.gridRowEnd = `span ${Math.ceil(
+            elt.querySelector(".pseudo-img").scrollHeight / autoRows +
+                columnGap / autoRows
+        )}`;
+    });
+}
+
+masonryLayout();
+window.addEventListener("resize", masonryLayout);
+</script>
+<script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script>
+	<script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="./resources/js/detail.js"></script>
+	<script>
+     const r = new rive.Rive({
+        src: "./logo.riv",
+        canvas: document.getElementById("logo"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        },
+	});
+     const q = new rive.Rive({
+        src: "./footer.riv",
+        canvas: document.getElementById("footer_Img"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          q.resizeDrawingSurfaceToCanvas();
+        },
+	});
+     const s = new rive.Rive({
+        src: "./coming.riv",
+        canvas: document.getElementById("coming"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          s.resizeDrawingSurfaceToCanvas();
+        },
+	});
+	</script>
+	<script>	
+		
+		const loading = document.getElementById('loading');
+		const cursorRiv = document.getElementById('com');
+
+	const moveCursor = (e) => {
+			const { pageX, pageY } = e;
+			const vwCalc = (6 * window.innerWidth) / 100;
+			cursorRiv.style.transform = `translate3d(${(pageX - vwCalc)}px, ${(pageY - (vwCalc))}px, 0)`;
+
+		}
+	function detectBlock(){
+		if (loading.matches(':hover')) {
+				cursorRiv.style.display = "block";
+			} else {
+				cursorRiv.style.display = "none";
+			}
+	}
+	window.addEventListener('mousemove',detectBlock);
+	loading.addEventListener('mousemove', moveCursor);
+	</script>
+	
+</body>
+</html>
