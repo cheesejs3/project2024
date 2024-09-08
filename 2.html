@@ -193,15 +193,15 @@
 	<script src="./resources/js/thumb.js"></script>
 	<script type="text/javascript" src="./resources/js/detail.js"></script>
 	<script>
-      const r = new rive.Rive({
-        src: "./logo.riv",
-        canvas: document.getElementById("logo"),
+      const s = new rive.Rive({
+        src: "./coming.riv",
+        canvas: document.getElementById("coming"),
         autoplay: true,
         stateMachines: "State Machine 1",
         onLoad: () => {
-          r.resizeDrawingSurfaceToCanvas();
+          s.resizeDrawingSurfaceToCanvas();
         },
-		});
+	});
       const f = new rive.Rive({
         src: "./langToggle.riv",
         canvas: document.getElementById("langToggle"),
@@ -211,7 +211,6 @@
           f.resizeDrawingSurfaceToCanvas();
         },
 		});
-
     </script>
 	<script src="./pages/2/js/Anim_main.js"></script>
 
