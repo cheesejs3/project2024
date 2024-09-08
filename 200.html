@@ -47,6 +47,9 @@
 				</div>
 		</div>
 	</nav>
+	<div id="com" class="com" >
+			<canvas width="400" height="200" id="coming" class="coming"></canvas>
+	</div>
 	<div class="grid description section" style="min-height: 5vh;">
 			<div class="col-1">
 				<div style="padding-bottom: 2rem;">
@@ -112,15 +115,7 @@
 	<script src="./resources/js/thumb.js"></script>
 	<script type="text/javascript" src="./resources/js/detail.js"></script>
 	<script>
-      const r = new rive.Rive({
-        src: "./logo.riv",
-        canvas: document.getElementById("logo"),
-        autoplay: true,
-        stateMachines: "State Machine 1",
-        onLoad: () => {
-          r.resizeDrawingSurfaceToCanvas();
-        },
-		});
+
       const f = new rive.Rive({
         src: "./langToggle.riv",
         canvas: document.getElementById("langToggle"),
