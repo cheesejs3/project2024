@@ -1,0 +1,31 @@
+*{}
+.wrap{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 3rem;
+	row-gap: 60px;
+	gap:2rem;
+}
+.wrap > div {
+	position: relative;
+}
+.wrap img {margin-bottom: 0.6rem;}
+.projectTitle{font-size: clamp(1.85rem, 2vw, 2.75rem);}
+.introduction{padding:3rem 5rem;}
+.introduction > p{
+
+    line-height: 1.4;
+    text-align: center;
+}
+.static{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-play-state: paused;
+    border-radius: calc(8px + 0.5em);
+	opacity: 0;}
+a:hover .overlay{opacity: 0;}
+a:hover .static{
+	opacity: 1;
+}

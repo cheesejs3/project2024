@@ -1,0 +1,68 @@
+a{	text-decoration: none;
+	color:black;
+	cursor: pointer;
+}
+a:hover{
+	color:#dd0303;
+	transition: 0.2s ease;
+}
+a,p,h1,h2 {
+	font-family: 'SUIT Variable', sans-serif;
+	font-style: normal;
+	word-break: keep-all;
+}
+.en{line-height: 3.85rem;
+	color: #edeadf
+	}
+.kor{
+}
+.gray{
+	color:#919191;
+}
+
+
+.regular {
+	font-weight: 400;
+}
+.bold {
+	font-weight: 700;
+}
+.text-mid {
+	font-size: clamp(1.2rem, 2vw, 1.785rem);
+	line-height: 1.7;
+	}
+.text-small{
+	font-size:clamp(1rem, 1vw, 24px);
+	font-weight: 400;
+	line-height: 1.7;
+}
+.text-big{
+	font-size: clamp(2.25rem, 2.25rem + 1vw, 3.75rem);
+    line-height: 4.2rem;
+}
+.pa{line-height: 4.0rem;
+	letter-spacing: -0.02;}
+
+.copywrite{
+	font-size: clamp(1rem,1vw,24px);
+}
+.menu_btn {
+	font-size: clamp(1.2rem, 1.5vw, 2.878rem);
+}
+
+
+.title{
+	line-height: 1.4;
+}
+.name{
+	font-family: "stix-two-text", serif;
+	line-height: 1.8}
+.line1-5{
+	line-height: 1.5;
+}
+.line1-85{
+	line-height: 1.85;
+}
+.sns a{
+	line-height: 2;
+}

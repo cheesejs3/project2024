@@ -1,0 +1,32 @@
+svg{cursor: pointer;}
+
+.home_btn {
+	width: 8vw;
+    height: auto;
+    position: relative;
+
+}
+.logo{width: 100%;}
+.footer_Img{width: 100%; height: auto;}
+/*svg*/
+.arrow {
+        fill: none;
+        stroke: #dd0303;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+#backBtn, #frontBtn {
+	cursor: pointer;
+	width:calc(20px + 1.75rem);
+	height: auto;
+	margin:10px;
+	border-radius: 1rem;
+	transition:0.2s ease-out;
+	border:2px solid white;
+}	
+#backBtn:hover, #frontBtn:hover {
+	cursor: pointer;
+	border:2px solid #dd0303;
+	
+	}
