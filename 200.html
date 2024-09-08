@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="./resources/img/favicon.png">
+	<meta name="Description" content="Nayun Kim is motion designer based in South Korea. I focus on to connect theme to personal experience.">
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta property="oimage" content="./resources/img/metaimg.jpg">
+
+	<title>New Cycle - Student Work</title>
+	<script>
+	  (function(d) {
+	    var config = {
+	      kitId: 'vnf1aov',
+	      scriptTimeout: 3000,
+	      async: true
+	    },
+	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+	<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+	<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+	<link rel="stylesheet" href="./resources/css/style.css">
+	<link rel="stylesheet" href="./resources/css/font.css">
+	<link rel="stylesheet" href="./resources/css/img.css">
+
+
+</head>
+<body id="body" >
+	<nav id="navHead" data-lenis-prevent-wheel>
+		<div class="wrapper flex">
+				<div class="home_btn">
+					<a href="" style="line-height:0;">
+						<dotlottie-player src="https://lottie.host/d739193d-375f-4fb1-8338-3a472cbb1d83/3ObIyts5IN.json" background="transparent" speed="1"  direction="1" playMode="normal" loop  hover autoplay></dotlottie-player>
+					</a>
+				</div>
+				<div class="menu_btn flex">
+					<div id="loading">
+						<a>About</a>
+					</div>
+					<div>
+						<a href="./project.html">Project</a>
+					</div>
+					<div>
+						<a href="./side.html">Side</a>
+					</div>
+				</div>
+		</div>
+	</nav>
+	<div class="grid description section" style="min-height: 5vh;">
+			<div class="col-1">
+				<div style="padding-bottom: 2rem;">
+					<p class="text-mid kor">2D 아이콘 모핑</p>
+					<p class="text-mid en">2D Icon Morphing</p>
+				</div>
+				<div class="text-small">
+					<p>Icon Animation</p>
+					
+				</div>
+				<div class="flex info text-small line1-5">
+					<p class="index medium">Duration</p>
+					<p>2019.04</p>
+				</div>
+				<div class="flex info text-small line1-5">
+					<p class="index medium">Workshop</p>
+				</div>
+				<input type="checkbox" name="language" value="language" id="Ltoggle" onclick="LanguageToggle();">
+					<label for="Ltoggle" class="Ltoggle grid">
+						<div class="col-9"></div>
+						<canvas id="langToggle" class="langToggle col-3">
+							
+						</canvas>
+					</label>
+			</div>
+			<div class="col-2">
+				<p class="kor text-small line1-85">아이콘 모핑 애니메이션을 lottie files를 사용해 임베드했습니다.</p>
+				<p class="en text-small line1-5">
+					The icon morphing animation was embedded using lottie files.</p>
+			</div>
+		</div>
+
+	
+	<section class="imgSection section" >
+		<div class="imgContainer" style="display:flex; justify-content: center; height: 100vh; width: auto;">
+			<dotlottie-player src="https://lottie.host/01bbf639-c07a-48f0-81a9-f06bee46f6b6/uYTsnvWZEg.json" background="transparent" speed="1"  direction="1" playMode="normal" loop  autoplay></dotlottie-player>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="footer-Wrap section">
+			<div>
+				<p class="text-big name">KIM NAYUN</p>
+			</div>
+			<p class="text-mid line1-5">Seoul, South Korea</p>
+			<div class="grid">
+				<div class="col-1">
+					<p class="text-mid personalInfo">pibicheese@gmail.com</p>
+				</div>
+				<div class="col-2"></div>
+				<div class="sns">
+					<p></p>
+					<a target="_blank" href="https://www.instagram.com/junoryun/" class="text-mid" style="width:`100%">Instagram</a>
+					<a target="_blank" href="https://www.behance.net/nayunkim" class="text-mid" style="width:`100%">Behance</a>
+				</div>
+			</div>
+			<p class="copywrite">©2024 KIM NAYUN, All rights reserved.</p>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script>
+	<script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./resources/js/thumb.js"></script>
+	<script type="text/javascript" src="./resources/js/detail.js"></script>
+	<script>
+      const r = new rive.Rive({
+        src: "./logo.riv",
+        canvas: document.getElementById("logo"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        },
+		});
+      const f = new rive.Rive({
+        src: "./langToggle.riv",
+        canvas: document.getElementById("langToggle"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          f.resizeDrawingSurfaceToCanvas();
+        },
+		});
+       const s = new rive.Rive({
+        src: "./coming.riv",
+        canvas: document.getElementById("coming"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          s.resizeDrawingSurfaceToCanvas();
+        },
+		});
+    </script>
+
+    <script>	
+		
+		const loading = document.getElementById('loading');
+		const cursorRiv = document.getElementById('com');
+
+	const moveCursor = (e) => {
+			const { pageX, pageY } = e;
+			const vwCalc = (6 * window.innerWidth) / 100;
+			cursorRiv.style.transform = `translate3d(${(pageX - vwCalc)}px, ${(pageY - (vwCalc))}px, 0)`;
+
+		}
+	function detectBlock(){
+		if (loading.matches(':hover')) {
+				cursorRiv.style.display = "block";
+			} else {
+				cursorRiv.style.display = "none";
+			}
+	}
+	window.addEventListener('mousemove',detectBlock);
+	loading.addEventListener('mousemove', moveCursor);
+	</script>
+</body>
+</html>
