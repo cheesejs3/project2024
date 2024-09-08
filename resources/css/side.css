@@ -3,7 +3,7 @@ img{
 	width:100%;
 	border-radius: 0;
 }
-a:hover {color:#f25586;}
+
 #filterContainer{
 	padding:3rem 5rem 2rem 5rem;
 	display: flex;
