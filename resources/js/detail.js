@@ -3,14 +3,14 @@
 var obj1 = document.getElementById("navHead");
   var obj1_height = obj1.offsetHeight;
 
-  document.getElementById("body").style.marginTop = obj1_height + "px";
+  document.getElementById("body").style.marginTop = obj1_height * 1.7 + "px";
 })();
 /*resize 될 때마다 nav바 크기 가져오기*/
 function setNavHeight() {
 	var obj1 = document.getElementById("navHead");
  	var obj1_height = obj1.offsetHeight;
 
-  	document.getElementById("body").style.marginTop = obj1_height + "px";
+  	document.getElementById("body").style.marginTop = obj1_height * 1.7 + "px";
 }
 window.addEventListener('resize', setNavHeight);
 
