@@ -53,7 +53,7 @@
 				</div>
 		</div>
 	</nav>
-	<div id="com" class="com">
+	<div id="com" class="com" style="background: gray;">
 			<canvas width="400" height="200" id="coming" class="coming"></canvas>
 	</div>
 
@@ -189,7 +189,8 @@
 		
 		const loading = document.getElementById('loading');
 		const cursorRiv = document.getElementById('com');
-
+		function displayNone(){cursorRiv.style.display = "none";}
+		window.addEventListener('onload', displayNone);
 		const moveCursor = (e) => {
 				const { pageX, pageY } = e;
 				const vwCalc = (6 * window.innerWidth) / 100;
