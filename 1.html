@@ -193,7 +193,15 @@
           s.resizeDrawingSurfaceToCanvas();
         },
 	});
-
+      const f = new rive.Rive({
+        src: "./langToggle.riv",
+        canvas: document.getElementById("langToggle"),
+        autoplay: true,
+        stateMachines: "State Machine 1",
+        onLoad: () => {
+          f.resizeDrawingSurfaceToCanvas();
+        },
+		});
     </script>
 
 
