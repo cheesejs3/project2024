@@ -1,5 +1,5 @@
 var projectList = new Array();
-var projectNum = 4;
+var projectNum = 6;
 var two = 2;
 for(var i=0; i<projectNum; i++){
 	projectList.push(i);
