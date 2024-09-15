@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <meta property="oimage" content="./resources/img/metaimg.jpg">
 
-	<title>KEYOSK</title>
+	<title>Idealogue X IDEA PARTY</title>
 	<script>
 	  (function(d) {
 	    var config = {
@@ -18,12 +18,10 @@
 	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 	  })(document);
 	</script>
-	<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 	<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
 	<link rel="stylesheet" href="./resources/css/style.css">
 	<link rel="stylesheet" href="./resources/css/font.css">
 	<link rel="stylesheet" href="./resources/css/img.css">
-	<link rel="stylesheet" href="./pages/2/css/2.css">
 
 
 </head>
@@ -32,12 +30,13 @@
 		<div class="wrapper flex">
 				<div class="home_btn">
 					<a href="" style="line-height:0;">
-						<dotlottie-player src="https://lottie.host/d739193d-375f-4fb1-8338-3a472cbb1d83/3ObIyts5IN.json" background="transparent" speed="1"  direction="1" playMode="normal" loop  hover autoplay></dotlottie-player>
+						<canvas id="logo" class="logo">
+						</canvas>
 					</a>
 				</div>
 				<div class="menu_btn flex">
-					<div id="loading">
-						<a>About</a>
+					<div>
+						<a href="./about.html">About</a>
 					</div>
 					<div>
 						<a href="./project.html">Project</a>
@@ -48,30 +47,32 @@
 				</div>
 		</div>
 	</nav>
-	<div id="com" class="com" >
-			<canvas width="400" height="200" id="coming" class="coming"></canvas>
-	</div>
 	<section id="vidSection"class="vidSection section">
 		<div id = "" class="vidContainer">
-			<iframe src="https://www.youtube.com/embed/o44pnWRvks8?si=K_Pj3aQZ5PX51XXb"  frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/LT7cKdy44kY?si=w8_ZH7MGo7DZWzzb" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
 	<div class="description section">
 		<div class="grid">
 			<div class="col-1">
-				<p class="text-mid bold title">KEYOSK</p>
+				<p class="text-mid bold title">Idealogue X IDEA PARTY</p>
+
 			</div>
 			<div class="col-2">
 				<div>
-					<p class="text-mid">Vector Motion Graphic</p>
+					<p class="text-mid">Contents Design</p>
 				</div>
 				<div class="text-small">
-					<p>Motion Graphics/Character Design</p>
+					<p>Identity Design / Illustration / Paper Engineering / Motion Graphics / Display</p>
 					
 				</div>
 				<div class="flex info text-small line1-5">
 					<p class="index medium">Duration</p>
-					<p>2020.06 - 2020.07</p>
+					<p>2023.03 - 2023. 10</p>
+				</div>
+				<div class="flex info text-small line1-5">
+					<p class="index medium">Graduation Exhibition</p>
+					
 				</div>
 			</div>
 			<div class="col-3"></div>
@@ -89,54 +90,71 @@
 					</label>
 				</div>
 				<p class="kor text-big par">
-					현금 없는 사회, 키오스크를 유일한 주문 및 결제 수단으로 사용하게 되면서 생긴 디지털 소외 현상을 햄버거 가게에 들어간 할머니 이야기로 풀어보았습니다.
+					팝업북 IDEA PARTY와 영상 IDEALOGUE는 세계관을 공유하는 트랜스미디어 프로젝트로, 영상 매체와 인쇄 매체를 통해 세계관을 더욱 확장하고 있습니다. 두 이야기를 연결지어 생각하면서 '아이디어의 특성'을 다양한 시각으로 바라보며 즐거움을 느낄 수 있습니다.
 				</p>
 				<p class="en text-big pa">
-					The digital alienation that comes with a cashless society and the use of kiosks as the only way to order and pay for things was explored through the story of an old lady walking into a burger restaurant.
+					IDEA PARTY and IDEALOGUE are transmedia projects, expanding our universe through visual and print media. By thinking about the connection between the two stories, you can enjoy looking at the “nature of ideas” from different perspectives.
 				</p>
 			</div>
 		</div>
 	</div>
 	<section class="imgSection section">
-		<div class="grid imgContainer">
-			<img src="./pages/1/img/1.webp">
-			<img src="./pages/1/img/2.webp">
-		</div>
-		<div class="grid imgContainer">
-			<img src="./pages/1/img/3.webp">
-			<img src="./pages/1/img/4.webp">
-		</div>
-		<div class="grid imgContainer">
-			<img src="./pages/1/img/5.webp">
-			<img src="./pages/1/img/6.webp">
-		</div>
-		<div class="grid imgContainer">
-			<img src="./pages/1/img/7.webp">
-			<img src="./pages/1/img/8.webp">
-		</div>
 		<div class="grid text">
 			<div class="col-1">
-				<p class="text-mid">Story Board</p>
+				<p class="text-mid">Idealogue</p>
 			</div>
 			<div class="col-7">
-				<p class="text-small line1-85"></p>
+				<p class="text-small line1-85">17*23cm, 31p, digital drawing, hard cover, pop-up binding </p>
 			</div>
 		</div>
 		<div class="imgContainer">
-			<img src="./pages/1/img/9.webp">
+			<img src="./pages/5/img/1.webp">
 		</div>
-		<div class="grid text">
-			<div class="col-1">
-				<p class="text-mid">Character Design</p>
-			</div>
-			<div class="col-7">
-				<p class="text-small line1-85"></p>
-			</div>
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/2.webp">
+			<img src="./pages/5/img/3.webp">
 		</div>
 		<div class="imgContainer">
-			<img src="./pages/1/img/10.webp">
+			<img src="./pages/5/img/4-1.webp">
+		</div>
+		
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/4.webp">
+			<img src="./pages/5/img/5.webp">
+		</div>
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/6.webp">
+			<img src="./pages/5/img/7.webp">
 		</div>
 
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/8.webp">
+			<img src="./pages/5/img/9.webp">
+		</div>
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/10.webp">
+			<img src="./pages/5/img/11.webp">
+			<img src="./pages/5/img/12.webp">
+		</div>
+		<div class="imgContainer">
+			<img src="./pages/5/img/13.webp">
+		</div>
+		<div class="imgContainer">
+			<img src="./pages/5/img/14.gif">
+		</div>
+		<div class="imgContainer">
+			<img src="./pages/5/img/15.webp">
+		</div>
+		<div class="imgContainer">
+			<img src="./pages/5/img/16.webp">
+		</div>
+		<div class="grid imgContainer">
+			<img src="./pages/5/img/17.gif">
+			<img src="./pages/5/img/18.gif">
+		</div>
+		<div class="imgContainer">
+			<img src="./pages/5/img/19.webp">
+		</div>
 	</section>
 	<div class="gallery-Wrap">
 		<div class="btn-Wrap flex">
@@ -177,19 +195,18 @@
 	<script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script>
 	<script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="./resources/js/thumb.js"></script>\
-	<script type="text/javascript" src="./resources/js/loading.js"></script>s
+	<script src="./resources/js/thumb.js"></script>
 	<script type="text/javascript" src="./resources/js/detail.js"></script>
 	<script>
-      const s = new rive.Rive({
-        src: "./coming.riv",
-        canvas: document.getElementById("coming"),
+      const r = new rive.Rive({
+        src: "./logo.riv",
+        canvas: document.getElementById("logo"),
         autoplay: true,
         stateMachines: "State Machine 1",
         onLoad: () => {
-          s.resizeDrawingSurfaceToCanvas();
+          r.resizeDrawingSurfaceToCanvas();
         },
-	});
+		});
       const f = new rive.Rive({
         src: "./langToggle.riv",
         canvas: document.getElementById("langToggle"),
@@ -199,8 +216,9 @@
           f.resizeDrawingSurfaceToCanvas();
         },
 		});
+
     </script>
-	<script src="./pages/2/js/Anim_main.js"></script>
+
 
 </body>
 </html>
